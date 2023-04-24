@@ -48,7 +48,7 @@ Thats it! You can now use ChatBot in your frontend to ask your queries.
 <!-- use npm for installing plugin -->
 
 ```bash
-npm install strapi-plugin-chatgpt
+npm install strapi-gpt
 ```
 
 ### 2. Enable the plugin
