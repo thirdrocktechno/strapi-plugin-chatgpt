@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_shared_chat-gpts",
+  "info": {
+    "displayName": "strapi-gpt",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {}
+}

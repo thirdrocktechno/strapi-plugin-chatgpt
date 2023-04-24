@@ -1,0 +1,41 @@
+{
+  "common": {
+    "widget-preview-label": "Desktop widget preview",
+    "change": "Change",
+    "remove": "Remove",
+    "add-image": "Add image"
+  },
+  "widget-appearance": {
+    "widget-color-label": "Widget Color",
+    "widget-position-label": "Desktop Widget Position",
+    "set-the-chat-widget-position-label": " Set the chat widget position for desktop",
+    "header-bg-label": "Header bg",
+    "user-message-label": "User message",
+    "ai-message-label": "AI message",
+    "header-text-label": "Header text",
+    "user-text-label": "User text",
+    "ai-text-label": "AI text"
+  },
+  "widget-content": {
+    "company-logo-label": "Chat Logo",
+    "executive-image-label": "ChatBot Logo",
+    "image-note-label": "Max size 5 MB",
+    "support-message-label": "Support message content",
+    "support-message-placeholder": "Support Message",
+    "allow-host-message-label": "Enter host including http(s):// on which you want to enable this bot",
+    "allow-backend-message-label": "Enter your strapi backend URL here",
+    "alloed-host-placeholder": "Enter yout frontend host on which you want to load the ChatBot",
+    "allowed-backend-placeholder": "Enter your strapi backend URL here",
+    "skip": "Skip",
+    "company-logo-description": "You can add your company's logo here to be visible on chatting widget",
+    "executive-image-description": "You can add image of the person who would be chatting with users."
+  },
+  "your-script": {
+    "view-script": "View script",
+    "copy-script": "Copy script",
+    "my-script": "My Script",
+    "company-profile-image-update-successfully-label": "Company Profile Image Update Successfully",
+    "error-while-removing-image-label": "Error while removing image",
+    "removed-successfully-label": "removed successfully"
+  }
+}

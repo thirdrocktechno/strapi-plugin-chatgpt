@@ -1,0 +1,68 @@
+{
+  "name": "strapi-gpt",
+  "version": "1.0.0",
+  "description": "A StrapiGPT plugin for integrating AI-powered custom ChatBot with your strapi content.",
+  "strapi": {
+    "name": "strapi-gpt",
+    "description": "A StrapiGPT plugin for integrating AI-powered custom ChatBot with your strapi content.",
+    "kind": "plugin",
+    "displayName": "StrapiGPT"
+  },
+  "author": {
+    "name": "Third Rock Techkno LLP",
+    "email": "krunals@thirdrocktechkno.com",
+    "url": "https://www.thirdrocktechkno.com"
+  },
+  "maintainers": [
+    {
+      "name": "Third Rock Techkno LLP",
+      "email": "krunals@thirdrocktechkno.com",
+      "url": "https://www.thirdrocktechkno.com"
+    }
+  ],
+  "peerDependencies": {
+    "@strapi/strapi": "^4.9.0"
+  },
+  "homepage": "https://github.com/thirdrocktechno/strapi-plugin-chatgpt#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thirdrocktechno/strapi-plugin-chatgpt.git"
+  },
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.3",
+    "@pinecone-database/pinecone": "0.0.10",
+    "ably": "^1.2.38",
+    "i18next": "^22.4.14",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "langchain": "^0.0.51",
+    "openai": "^3.2.1",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^12.2.0",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "strapi",
+    "strapigpt",
+    "strapigpt-chatbot",
+    "chatbot",
+    "ai",
+    "ml",
+    "conversations",
+    "openai",
+    "chatgpt",
+    "open-source",
+    "bot",
+    "custom-chatbot",
+    "gpt-3",
+    "search-chatbot-gpt",
+    "strapi content chatgpt",
+    "ai chatbot strapi",
+    "langchain"
+  ]
+}
