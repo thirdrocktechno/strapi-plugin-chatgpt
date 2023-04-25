@@ -58,7 +58,7 @@ const ViewScript = ({
             <textarea
               id="script-content"
               className="resize-none bg-custom-LightGrey8 focus:outline-none w-full text-base min-h-[55px] font-roboto-mono"
-              value={`<script src="https://strapi-gpt.s3.ap-south-1.amazonaws.com/tracking.js" frontendHost='${frontendHost}' backendHost='${backendHost}'></script>`}
+              value={`<script src="https://assets.strapigpt.com/tracking.js" frontHost='${frontendHost}' apiHost='${backendHost}'></script>`}
               readOnly
             ></textarea>
           </div>
