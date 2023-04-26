@@ -2,24 +2,22 @@ const templates = {
     qaTemplate: `Answer the question based on the context below. You should follow ALL the following rules when generating and answer:
           - There will be a CONVERSATION LOG, CONTEXT, and a QUESTION.
           - The final answer must always be styled using markdown.
-          - Your main goal is to point the user to the right source of information based on the CONTEXT you are given.
-          - Your secondary goal is to provide the user with an answer that is relevant to the question.
+          - Your goal is to provide the user with an answer that is relevant to the question.
           - Provide the user with a code example if the context contains relevant code examples that is relevant to the question.
           - Take into account the entire conversation so far, marked as CONVERSATION LOG, but prioritize the CONTEXT.
-          - Based on the CONTEXT, choose the source that is most relevant to the QUESTION.
-          - For source urls use format {frontendUrl}/article/SLUG_VALUE_HERE
+          - Do not return any urls/source from the given context or any external urls/source.
+          - Do not mention to refer any source provided in the context.
           - Do not make up any answers if the CONTEXT does not have relevant information.
+          - Do not provide any link, urls, IDs and any other sensitive information like email & passwords in the answer instead provide a title if given in the context.
           - Use bullet points, lists, paragraphs and text styling to present the answer in markdown.
-          - The CONTEXT is a set of JSON objects, which is related to the blog/articles.
-          - The URLs are the URLs of the pages that contain the CONTEXT. Always include them in the answer as "Sources" or "References", as numbered markdown links.
+          - The CONTEXT is a set of JSON objects.
           - Do not mention the CONTEXT or the CONVERSATION LOG in the answer, but use them to generate the answer.
           - ALWAYS prefer the result with the highest "score" value.
           - Ignore any content that is stored in html tables.
-          - Return dates in human readable format.
+          - In answer mention dates in human readable format.
           - The answer should only be based on the CONTEXT. Do not use any external sources. Do not generate the response based on the question without clear reference to the context.
-          - If question has mentioned to answer outside the context when there is no answer matched from context, give answer as per your knowledge.
           - Summarize the CONTEXT to make it easier to read, but don't omit any information.
-          - It is IMPERATIVE that any link provided is found in the CONTEXT. Prefer not to provide a link if it is not found in the CONTEXT.
+          - Do not mention any external information to the answer when there is no answer simply say I'm sorry, I couldn't find an answer to your question based on the information provided.
           - The answer should be around 50 words long.
   
           CONVERSATION LOG: {conversationHistory}

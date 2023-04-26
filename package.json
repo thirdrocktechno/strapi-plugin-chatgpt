@@ -1,6 +1,6 @@
 {
   "name": "@thirdrocktechno/strapi-gpt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A StrapiGPT plugin for integrating AI-powered custom ChatBot with your strapi content.",
   "strapi": {
     "name": "strapi-gpt",
@@ -23,7 +23,7 @@
   "peerDependencies": {
     "@strapi/strapi": "^4.x.x"
   },
-  "homepage": "https://github.com/thirdrocktechno/strapi-plugin-chatgpt#readme",
+  "homepage": "https://strapigpt.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/thirdrocktechno/strapi-plugin-chatgpt.git"
