@@ -1,4 +1,4 @@
-# StrapiGPT plugin for Strapi
+# [StrapiGPT](https://strapigpt.com/) plugin for Strapi
 
 [OpenAI](https://openai.com/) is an AI research lab known for their work on natural language processing, computer vision, and robotics. This plugin uses an OpenAI API for Text Embedding, and Text generation.
 
@@ -9,6 +9,8 @@
 [Ably](https://ably.com/) is a messaging platform for real-time data delivery. This plugin uses Ably to publish & subscribe the tokens from strapi to ChatBot.
 
 [LangChain](https://js.langchain.com/) is a framework for developing applications powered by language models. It allows developers to connect a language model to other sources of data and allow a language model to interact with other systems. This plugin uses LangChain for a conversation like search in the ChatBot.
+
+Checkout AI ChatBot demo at [Foodadvisor Demo With StrapiGPT ChatBot](https://foodadvisor.strapigpt.com/). Click on the botton right chat icon and ask about the restaurants in the ChatBot. The demo is based on the [Foodadvisor - Strapi Demo](https://github.com/strapi/foodadvisor).
 
 ## Overview: Integrate a custom ChatBot in your frontend using StrapiGPT.
 
