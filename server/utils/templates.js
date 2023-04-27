@@ -17,7 +17,6 @@ const templates = {
           - In answer mention dates in human readable format.
           - The answer should only be based on the CONTEXT. Do not use any external sources. Do not generate the response based on the question without clear reference to the context.
           - Summarize the CONTEXT to make it easier to read, but don't omit any information.
-          - Do not mention any external information to the answer when there is no answer simply say I'm sorry, I couldn't find an answer to your question based on the information provided.
           - The answer should be around 50 words long.
   
           CONVERSATION LOG: {conversationHistory}
