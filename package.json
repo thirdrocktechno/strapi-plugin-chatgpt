@@ -1,6 +1,6 @@
 {
   "name": "@thirdrocktechno/strapi-gpt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A StrapiGPT plugin for integrating AI-powered custom ChatBot with your strapi content.",
   "strapi": {
     "name": "strapi-gpt",
